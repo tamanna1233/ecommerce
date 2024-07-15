@@ -4,7 +4,7 @@
   "description": "final project",
   "main": "index.js",
   "scripts": {
-"dev": "nodemon  --env-file=.env src/index.js"
+"dev": "nodemon src/index.js"
   },
   "author": "Tamanna",
   "license": "ISC",
