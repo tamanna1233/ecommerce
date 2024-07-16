@@ -27,7 +27,7 @@ function UpdateProductPage() {
 const updateHandle =async(e)=>{
 e.preventDefault();
 
-let result = await fetch(`http://localhost:1234/updateproduct/${params.id}`,
+let result = await fetch(`https://ecommerce-4sj6.onrender.com/updateproduct/${params.id}`,
     {
     method: "PUT",
     body:JSON.stringify({productname,price,company,quantity}),

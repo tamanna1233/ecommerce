@@ -22,7 +22,7 @@ let wantToDel =confirm("Are you sure want to del");
 
       if(wantToDel)
         {
-          let result = await fetch(`http://localhost:1234/del/${id}` ,{
+          let result = await fetch(`https://ecommerce-4sj6.onrender.com/del/${id}` ,{
             method :'delete'
           })
           let data = await result.json();

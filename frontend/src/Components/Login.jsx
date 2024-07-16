@@ -9,7 +9,7 @@ function Login() {
 
      const loginhandle = async (e)=>{
         e.preventDefault();
-        let result = await fetch("http://localhost:1234/login",{
+        let result = await fetch("https://ecommerce-4sj6.onrender.com/login",{
             method:"post",
             body:JSON.stringify({email,password}),
             headers:{

@@ -12,7 +12,7 @@ function Signup() {
     const signupHandle=async(e)=>{
       e.preventDefault();
 
-      let result =await fetch("http://localhost:1234/signup",
+      let result =await fetch("https://ecommerce-4sj6.onrender.com/signup",
         {
         method:"post",
         body:JSON.stringify({name,email,password}),

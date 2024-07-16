@@ -12,7 +12,7 @@ const navigate =useNavigate();
 
     const Addproducthandle = async (e) => {
         e.preventDefault();
-        let result = await fetch("http://localhost:1234/addproduct",
+        let result = await fetch("https://ecommerce-4sj6.onrender.com/addproduct",
             {
                 method: "POST",
                 body: JSON.stringify({ productname, price, company, quantity }),
