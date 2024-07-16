@@ -7,7 +7,7 @@ function ProductPage() {
 
 const [productData ,setProductData] = useState([]);
   useEffect(()=>{
-    fetch('http://localhost:1234/all')
+    fetch('https://ecommerce-4sj6.onrender.com/all')
     .then(res=> res.json())
     .then(json => setProductData(json))
   })
